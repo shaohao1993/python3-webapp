@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
+<<<<<<< HEAD
 #from django.shortcuts import render
 #from blog.models import BlogsPost
 #from django.shortcuts import render_to_response
@@ -16,3 +17,8 @@ def index(request):
         'blog_list':blog_list
     }
     return HttpResponse(template.render(context, request))
+=======
+from django.shortcuts import render
+
+# Create your views here.
+>>>>>>> origin/master
