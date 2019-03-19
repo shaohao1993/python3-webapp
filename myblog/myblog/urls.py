@@ -15,15 +15,16 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-<<<<<<< HEAD
+# <<<<<<< HEAD
 from blog import views as blog_view
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^index/$', blog_view.index),
-=======
+    ]
+# =======
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
->>>>>>> origin/master
+# >>>>>>> origin/master
 ]
